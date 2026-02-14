@@ -1,0 +1,56 @@
+/* Remove default spacing */
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Navbar container */
+.navbar {
+  width: 100%;
+  background-color: #f2f2f2;
+  padding: 15px 40px;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  text-align: left;
+
+  box-sizing: border-box;
+}
+
+/* Left side */
+.navbar-left {
+  display: flex;
+  align-items: center;
+}
+
+/* Logo */
+.logo {
+  width: 32px;
+  height: auto;
+  margin-right: 40px;
+}
+
+/* Menu */
+.navbar-menu {
+  list-style: none;
+  display: flex;
+  gap: 30px;
+
+  margin: 0;
+  padding: 0;
+
+  color: #222;
+  font-size: 15px;
+  font-weight: 500;
+}
+
+/* Menu items */
+.navbar-menu li {
+  cursor: pointer;
+  transition: color 0.2s ease;
+}
+
+.navbar-menu li:hover {
+  color: #ff5500;
+}
